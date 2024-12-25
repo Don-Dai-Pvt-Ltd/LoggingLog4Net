@@ -3,7 +3,7 @@ using log4net.Config;
 using LoggingLog4Net;
 using System.Runtime.CompilerServices;
 
-[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+//[assembly: log4net.Config.XmlConfigurator(Watch = true)]
 
 var builder = WebApplication.CreateBuilder(args);
 
